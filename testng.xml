@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="2" >
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"></listener>
+    </listeners>
+    <test name="chrometest" >
+        <parameter name="browser" value="chrome"></parameter>
+        <!--parameter name="url" value="https://demo.opencart.com/"></parameter-->
+        <classes>
+            <class name="testCases.TC_001_AccountRegistrationTest">
+            </class>
+        </classes>
+    </test>
+    <!--test name="edgetest">
+        <parameter name="browser" value="edge"></parameter>
+        <!-parameter name="url" value="https://demo.opencart.com/"></parameter-->
+        <!--classes>
+            <class name="testCases.TC_001_AccountRegistrationTest">
+            </class>
+        </classes>
+    <!-/test-->
+</suite>

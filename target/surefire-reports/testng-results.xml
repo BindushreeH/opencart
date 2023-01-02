@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-02T11:46:09 GST" name="All Test Suite" finished-at="2023-01-02T11:47:31 GST" duration-ms="81375">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistrationTest.test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@76508ed1]" name="test_account_registration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_AccountLoginTest.testAccountLogin()[pri:0, instance:testCases.TC_002_AccountLoginTest@2dc995f4]" name="testAccountLogin" class="testCases.TC_002_AccountLoginTest"/>
+        <method signature="TC_003_DataDrivenTest.testDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_DataDrivenTest@2f40e5db]" name="testDataDriven" class="testCases.TC_003_DataDrivenTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_AccountLoginTest.testAccountLogin()[pri:0, instance:testCases.TC_002_AccountLoginTest@2dc995f4]" name="testAccountLogin" class="testCases.TC_002_AccountLoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="DataDriven">
+        <method signature="TC_003_DataDrivenTest.testDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_DataDrivenTest@2f40e5db]" name="testDataDriven" class="testCases.TC_003_DataDrivenTest"/>
+      </group> <!-- DataDriven -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistrationTest.test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@76508ed1]" name="test_account_registration" class="testCases.TC_001_AccountRegistrationTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-01-02T11:46:09 GST" name="chrome_test" finished-at="2023-01-02T11:47:31 GST" duration-ms="81375">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@76508ed1]" started-at="2023-01-02T11:46:09 GST" name="setup" finished-at="2023-01-02T11:46:25 GST" duration-ms="15725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@76508ed1]" started-at="2023-01-02T11:46:25 GST" name="test_account_registration" finished-at="2023-01-02T11:46:27 GST" duration-ms="2131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@76508ed1]" started-at="2023-01-02T11:46:27 GST" name="tearDown" finished-at="2023-01-02T11:46:28 GST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@76508ed1]" started-at="2023-01-02T11:46:28 GST" name="teardown" finished-at="2023-01-02T11:46:28 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_003_DataDrivenTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_DataDrivenTest@2f40e5db]" started-at="2023-01-02T11:46:34 GST" name="setup" finished-at="2023-01-02T11:46:42 GST" duration-ms="8417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_DataDrivenTest@2f40e5db]" started-at="2023-01-02T11:46:44 GST" name="testDataDriven" data-provider="LoginData" finished-at="2023-01-02T11:46:55 GST" duration-ms="11170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavanoltraining@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDriven -->
+        <test-method signature="testDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_DataDrivenTest@2f40e5db]" started-at="2023-01-02T11:46:55 GST" name="testDataDriven" data-provider="LoginData" finished-at="2023-01-02T11:47:07 GST" duration-ms="12108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDriven -->
+        <test-method signature="testDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_DataDrivenTest@2f40e5db]" started-at="2023-01-02T11:47:07 GST" name="testDataDriven" data-provider="LoginData" finished-at="2023-01-02T11:47:18 GST" duration-ms="11087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laksh@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDriven -->
+        <test-method signature="testDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_DataDrivenTest@2f40e5db]" started-at="2023-01-02T11:47:18 GST" name="testDataDriven" data-provider="LoginData" finished-at="2023-01-02T11:47:29 GST" duration-ms="11053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laks@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDriven -->
+        <test-method signature="testDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_DataDrivenTest@2f40e5db]" started-at="2023-01-02T11:47:29 GST" name="testDataDriven" data-provider="LoginData" finished-at="2023-01-02T11:47:30 GST" duration-ms="1162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDriven -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_DataDrivenTest@2f40e5db]" started-at="2023-01-02T11:47:30 GST" name="tearDown" finished-at="2023-01-02T11:47:31 GST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_003_DataDrivenTest -->
+      <class name="testCases.TC_002_AccountLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_AccountLoginTest@2dc995f4]" started-at="2023-01-02T11:46:28 GST" name="setup" finished-at="2023-01-02T11:46:32 GST" duration-ms="4618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAccountLogin()[pri:0, instance:testCases.TC_002_AccountLoginTest@2dc995f4]" started-at="2023-01-02T11:46:32 GST" name="testAccountLogin" finished-at="2023-01-02T11:46:33 GST" duration-ms="1269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_AccountLoginTest@2dc995f4]" started-at="2023-01-02T11:46:33 GST" name="tearDown" finished-at="2023-01-02T11:46:34 GST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_AccountLoginTest -->
+    </test> <!-- chrome_test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
